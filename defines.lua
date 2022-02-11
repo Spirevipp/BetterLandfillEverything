@@ -22,7 +22,7 @@ le_defines.values.preferred_tile_values =
 
 -- Tile mapping
 le_defines.tile_mapping = {
-    [le_defines.values.preferred_tile_values.platforms] = "micromario-platform",
+    [le_defines.values.preferred_tile_values.platforms] = "platform",
     [le_defines.values.preferred_tile_values.default] = "landfill"
 }
 
