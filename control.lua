@@ -6,7 +6,7 @@ curvedRail = require("stdlib.curvedRail")
 serpent = require("stdlib.serpent")
 local v = require("stdlib.semver")
 
-local MOD_NAME = "LandfillEverythingButTrains"
+local MOD_NAME = "LandfillEverything"
 local GUI_BUTTON = "le_button"
 
 --function init_debug()
