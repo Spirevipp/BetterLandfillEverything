@@ -1,0 +1,54 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 16.01.2021
+  Changes:
+    - Excluded Rolling Stock (Trains, Wagons etc.) Prototypes from landfill.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 16.01.2021
+  Changes:
+    - Updated for Factorio version 1.1
+    - You can no longer add landfill tiles to the blueprint in hand if the blueprint comes from the blueprint library.
+      This is due to (mainly good) changes in the base game regarding the library and will require a bigger rewrite if at all possible.
+  Info:
+    - I am back! Many apologies for lack of updates, mainly caused by some personal issues.
+      Many thanks to schmorp and T-A-R that cared enough about the mod to try and revive it!
+  Bug fixes:
+    - Tile calculations modified by schmorp to work better in edge cases and with rail entities.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 21.01.2020
+  Changes:
+    - Supports Factorio version 0.18 
+
+  Bug fixes:
+    - Train stations without rail segments in the blueprint could cause misalignment
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 31.03.2019
+  Changes:
+    - Attempts to add landfill tiles where the original blueprint had path tiles (brick, concrete...).
+    - Also now preserves existing landfill.
+    - Use Shift-click on the button for the old behaviour, only adding landfill under entities even if there are other tiles present.
+    - Control-click attempts to re-add the existing tiles, only mildly useful and only together with shift.
+    - Support added for the mod Platforms which adds a special type of removable landfill.
+    - Setting added for choosing between original landfill and Platforms
+    - Re-written button code, please report odd behaviour when migrating existing saves!
+
+  Bug fixes:
+    - Fixed crash when there was no entities at all in the blueprint
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 12.03.2019
+  Changes:
+    - Changed grass-1 tile to new landfill tile for Factorio version 0.17.10
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 10.03.2019
+  Changes:
+    - Initial Release
