@@ -1,2 +1,6 @@
-
+release/
 .DS_Store
+.vscode/
+BetterLandfillEverything.code-workspace
+*.lnk
+*.ps1

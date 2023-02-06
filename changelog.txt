@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 06.02.2023
+  Changes:
+    - Initial fork and change to support SE tiles.
+    - Added new hotkey: Alt-click to use the tile from settings menu. Not using alt will now always place default landfill.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.2
 Date: 11.02.2022
   Changes:

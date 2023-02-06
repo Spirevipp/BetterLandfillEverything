@@ -1,32 +1,37 @@
 -- Here are the values that are shared across different files.
-le_defines = {}
+ble_defines = {}
 -- Prefix of the entity names and item names.
-le_defines.name_prefix = "landfill_everything_"
+ble_defines.name_prefix = "better_landfill_everything_"
 
 -- Names and values
-le_defines.names = {}
-le_defines.values = {}
+ble_defines.names = {}
+ble_defines.values = {}
 
 -- Setting names
-le_defines.names.settings =
+ble_defines.names.settings =
 {
-    preferred_tile = le_defines.name_prefix .. "preferred-tile",
+	preferred_tile = ble_defines.name_prefix .. "preferred-tile",
+	custom_tile = ble_defines.name_prefix .. "custom-tile"
 }
 
 -- Setting - Available tiles
-le_defines.values.preferred_tile_values =
+ble_defines.values.preferred_tile_values =
 {
-    default = "Factorio default",
-    platforms = "platforms"
+	default = "Factorio default",
+	platforms = "platforms",
+	spaceplating = "Space Platform Plating",
+	spacescaffolding = "Space Platform Scaffolding"
 }
 
 -- Tile mapping
-le_defines.tile_mapping = {
-    [le_defines.values.preferred_tile_values.platforms] = "platform",
-    [le_defines.values.preferred_tile_values.default] = "landfill"
+ble_defines.tile_mapping = {
+	[ble_defines.values.preferred_tile_values.platforms] = "platform",
+	[ble_defines.values.preferred_tile_values.default] = "landfill",
+	[ble_defines.values.preferred_tile_values.spaceplating] = "se-space-platform-plating",
+	[ble_defines.values.preferred_tile_values.spacescaffolding] = "se-space-platform-scaffold"
 }
 
-le_defines.reserved_tiles = {}
-for mod, tile in pairs(le_defines.tile_mapping) do
-    le_defines.reserved_tiles[tile] = true
+ble_defines.reserved_tiles = {}
+for mod, tile in pairs(ble_defines.tile_mapping) do
+	ble_defines.reserved_tiles[tile] = true
 end
