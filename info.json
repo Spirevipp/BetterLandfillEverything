@@ -1,11 +1,19 @@
 {
-	"name": "BetterLandfillEverything",
-	"version": "1.1.5",
-	"title": "Better Landfill Everything",
 	"author": "Spirevipp",
 	"contact": "Spirevipp",
-	"homepage": "https://github.com/Spirevipp/BetterLandfillEverything",
+	"description": "This mod adds a button that modify the blueprint in cursor to add landfill tiles under each entity. Supports Dectorio, Platforms and Space Exploration landfill tiles! This is a fork of the orgiginal mod by Hadramal and ElderAxe",
 	"factorio_version": "1.1",
+	"homepage": "https://github.com/Spirevipp/BetterLandfillEverything",
+	"name": "BetterLandfillEverything",
+	"title": "Better Landfill Everything",
+	"version": "1.1.5",
 	"dependencies": ["base >= 1.1", "? Dectorio", "? platforms >= 1.1", "? space-exploration"],
-	"description": "This mod adds a button that modify the blueprint in cursor to add landfill tiles under each entity. Supports Dectorio, Platforms and Space Exploration landfill tiles! This is a fork of the orgiginal mod by Hadramal and ElderAxe"
+	"package": {
+		"git_publish_branch": "main",
+		"ignore": [],
+		"scripts": {},
+		"no_git_push": true,
+		"no_git_tag": true,
+		"no_portal_upload": true
+	}
 }
